@@ -4,6 +4,7 @@ from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
 import uuid
 
+
 # Create your models here.
 class Genre(models.Model):
     """Model representing a book genre."""
